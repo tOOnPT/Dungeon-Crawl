@@ -1,0 +1,2 @@
+defmodule DungeonCrawl.Character do
+end
