@@ -1,7 +1,5 @@
-defmodule Mix.Task.Start do
+defmodule Mix.Tasks.Start do
   use Mix.Task
 
-  def run(_) do
-    DungeonCrawl.Cli.Main.start_gamE
-  end
+  def run(_), do: DungeonCrawl.CLI.Main.main
 end

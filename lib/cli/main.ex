@@ -1,14 +1,12 @@
-defmodule DungeonCrawl.Cli.Main do
-  alias Mix.Shell.IO
-
-  def start_game do
-    welcome_message
-    IO.prompt("press enter to continue")
+defmodule DungeonCrawl.CLI.Main do
+  def main(_args \\ []) do
+    welcome_message()
+    ExPrompt.string("\nPress enter to continue")
   end
 
   defp welcome_message do
-    IO.info "====Dungeon Crawl==="
-    IO.info "You awake in a dungeon of full of monsters"
-    IO.info " You need to survive and find a exit"
+    IO.puts("\n== Dungeon Crawl ==\n")
+    IO.puts("You awake in a dungeon full of monsters")
+    IO.puts("You need to survive and find the exit")
   end
 end
