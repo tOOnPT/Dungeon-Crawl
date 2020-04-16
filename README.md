@@ -1,4 +1,4 @@
-# DungeonCrawl ![crappy castle](https://github.com/pedroseabra1091/dungeon-crawl/blob/master/pixel-castle.png)
+# Dungeon Crawl ![crappy castle](https://github.com/pedroseabra1091/dungeon-crawl/blob/master/pixel-castle.png)
 
 
 Terminal text based Dungeon Crawl game to pratice topics lectured in Elixir Session #1.
